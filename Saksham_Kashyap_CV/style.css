@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list{
+    float: right;
+    list-style: none;
+    padding: 20px;
+    font-size: x-large;
+}
+.list:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px rgb(248, 213, 161);
+}
+.navbar li.name{
+    float:left;
+    padding-left: 20px;
+    font-weight:700;
+    font-size: xx-large;
+}
+.navbar li.name:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px rgb(248, 214, 163);
+}
+.container1{
+    background-color: #aadfd8;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-repeat: no-repeat;
+    
+}
+.container1 .text .download{
+    margin-top: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(4, 5, 5);
+    color: rgb(255, 236, 236);
+    font-size: medium;
+}
+.container1 img{
+    height: 250px;
+    padding: 50px;
+    border-radius: 176px;
+    margin-left: -2px;
+    /* margin-left: 100px; */
+}
+.text{
+    padding-left: 30px;
+}
+.text h2{
+    font-size:35px;
+    font-weight: 700;
+    padding-top: 80px;
+    margin-right: 200px;
+}
+.text .p1{
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 450;
+}
+.text .p2{
+    padding-top: 5px;
+    font-weight: 350;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+.container2{
+    padding-bottom: 10px;
+    background-image: url(/pics/study1.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    
+}
+table{
+    margin-left: 35vh;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    font-size:15px;
+    border: 2px solid #fd1d1d;
+    text-align: left;
+    padding: 30px;
+}
+th{
+    font-size: larger;
+    background-color: rgba(151, 52, 52, 0.801);
+}
+td{
+    font-size:medium;
+    background-color: #f4cd4e;
+}
+.container2 h1{
+    text-align: center;
+    font-size:45px;
+    padding-bottom: 10px;
+}
+.container3{
+    padding-bottom: 50px;
+    display: flex;
+    background: #aadfd8;
+}
+.s3 h1{
+    text-align: center;
+    font-size:45px;
+    padding-bottom: 50px;
+    background: #aadfd8;
+
+}
+hr{
+    border: 2px solid black;
+}
+.b1{
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+}
+.b2{
+    border: 2px solid #fd1d1d;
+    margin-left: 200px;
+    width: 6%;
+}
+.b3{
+    border: 2px solid #fd1d1d;
+    margin-left: 200px;
+    width: 6%;
+}
+.b4{
+    border: 2px solid #fd1d1d;
+    margin-left: 200px;
+    width: 10%;
+    padding: 2px;
+}
+.container4{
+    padding-bottom: 10px;
+    background-image: url(/pics/study1.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    
+}
+.p1:hover{
+    text-shadow: 2px 2px rgb(255, 253, 253);
+}
+.p2:hover{
+    text-shadow: 2px 2px rgb(255, 253, 253);
+}
+.container4 h1{
+    text-align: center;
+    font-size:45px;
+    padding-bottom: 12px;
+}
+.container4 table{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.s5 h1{
+    text-align: center;
+    font-size:45px;
+    padding-bottom: 35px;
+    background: #aadfd8;
+
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #aadfd8;
+}
+.container5 .i1{
+    padding: 10px;
+    margin-top: 30px;
+}
+.container5 .i1 a{
+    margin-right: 30px;
+   font-size: medium;
+}
+.container5 .i2{
+
+    padding: 10px;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+.container5 .i2 a{
+   
+   margin-right: 30px;
+   font-size: medium;
+}
+.container5 .i3{
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.container5 .i3 a{
+   font-size: medium;
+}
+.container5  :hover{
+    height: 60px;
+}
